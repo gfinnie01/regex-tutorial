@@ -20,9 +20,10 @@ this will also be taking from the Regex `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\
 - [Character Escapes](#character-escapes)
 
 ## Regex Components
+the components of a Regex as i previously stated in the summary and the specifics are as such
 
 ### Anchors
-
+the Anchor will allow you to make a link and reference it to something such as a website but in this instance it will be a e-mail. the code that is wrapped in the `<a>` will be the content both the link and the string you wish to display the href that goes inside the `<a>` like `<a href="">` will allow you to put the link that it will take you to wherever you linked it to.
 ### Quantifiers
 
 ### Grouping Constructs
