@@ -36,9 +36,10 @@ a character class is a set of characters enclosed within square brackets more im
 ### The OR Operator
 the or operator will allow you to choose between two things depending on the situation for a example it could be `result = expression9 or expression3` the only thing that is required is a boolean or an numeric expression and as long one or both of the expressions are the same it will return true the only reason it would return false would be if they are both returned false. 
 ### Flags
-
+flags will automatically sort string alphabetically from left to right it will invoke other flag accessors one by one and concentrates the results.
 ### Character Escapes
-
+character escapes can be multiple things such as in a README it will end a line like this \
+this is accomplished by using a `\` but in a regular expression they can mean things like `\b` means that it is a anchor and the regex should start on a word boundary and that `\t` represents a tab there are lots of different ways that this can be used we have one in our regex and it is `/^` 
 ## Author
+[Grant Finnie](https://github.com/gfinnie01)
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
